@@ -4,6 +4,6 @@
     "start": "serve ."
   },
   "devDependencies": {
-    "serve": "^10.1.1"
+    "serve": "^11.3.0"
   }
 }

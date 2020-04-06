@@ -17,6 +17,10 @@ new Docute({
       link: 'https://status.antiproxies.com'
     },
     {
+      title: 'Changelog',
+      link: 'https://changelog.antiproxies.com/'
+    },
+    {
       title: 'Discord',
       link: 'https://discord.gg/5YPUBPz'
     },

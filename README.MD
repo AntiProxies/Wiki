@@ -19,7 +19,7 @@ Online status statistics page with UptimeRobot as the data source.
 
 ## Demo
 
-[AntiProxies status](https://wiki.antiproxies.com)
+[AntiProxies Wiki](https://wiki.antiproxies.com)
 
 ## Build with
 
