@@ -10,8 +10,14 @@
   <body>
     <div id="docute"></div>
     <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
+    <script> 
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+    }
+    </script>
     <!-- Load these after docute.js -->
-<script src="https://unpkg.com/docute-google-analytics@1/dist/index.min.js"></script>
+    <script src="https://unpkg.com/docute-google-analytics@1/dist/index.min.js"></script>
     <script src="./script.js"></script>
+    <script src="./sw.js"></script>
   </body>
 </html>
